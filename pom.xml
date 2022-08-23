@@ -5,14 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>otus201</artifactId>
+    <artifactId>TestDZ6</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-<!--        <login>payix78520@agrolivana.com</login>-->
-<!--        <password>Qwe908976!</password>-->
+        <login>payix78520@agrolivana.com</login>
+        <password>Qwe908976!</password>
+        <url>https://otus.ru/</url>
     </properties>
     <dependencies>
 
@@ -53,5 +54,18 @@
             <version>3.141.59</version>
         </dependency>
     </dependencies>
+
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.0.0-M7</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 
 </project>
